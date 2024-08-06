@@ -139,18 +139,6 @@ return packer.startup(function(use)
     end,
   })
   use("mfussenegger/nvim-dap")
-
-  use({
-    "NTBBloodbath/rest.nvim",
-    requires = {
-      "nvim-lua/plenary.nvim",
-      "nvim-lua/popup.nvim",
-      "nvim-telescope/telescope.nvim"
-    },
-    config = function()
-      require("rest-nvim").setup()
-    end,
-  })
   use("lukas-reineke/indent-blankline.nvim")
   use("ahmedkhalf/project.nvim")
   use({
