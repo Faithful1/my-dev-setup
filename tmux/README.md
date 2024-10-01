@@ -28,8 +28,8 @@ After pressing a prefix key, you can use the following shortcuts.
 
 2. Window & Pane Management
 
-	•	Horizontal Split: Prefix + v (splits the current pane horizontally)
-	•	Vertical Split: Prefix + h (splits the current pane vertically)
+	•	Horizontal Split: `Prefix + v` (splits the current pane horizontally)
+	•	Vertical Split: `Prefix + h` (splits the current pane vertically)
 	•	Renumber Windows: Windows are automatically renumbered when closed.
 
 3. Scrolling History
